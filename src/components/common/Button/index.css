@@ -1,0 +1,14 @@
+.button_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}

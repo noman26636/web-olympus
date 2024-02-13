@@ -1,0 +1,89 @@
+.about_us {
+    color: black;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.aboutUs_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.vector_container img {
+    position: absolute;
+    right: 0;
+    margin-right: 70px;
+}
+
+.text_container {
+    display: flex;
+    padding: 100px 200px 0px 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text_container h4 {
+    color: #888888;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mainImage_container {
+    position: relative;
+    display: flex;
+    margin-top: -40px;
+}
+
+.mainImage_wrapper {
+position: relative;}
+
+.company_portfolio {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #333333;
+    height: 200px;
+    bottom: 0;
+    right: -175px;
+    width: 470px;
+}
+
+.portfolio_wrapper h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 4rem;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.portfolio_wrapper h5{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+.right_container {
+    position: absolute;
+    top: 67vh;
+    right: 0;
+    margin-right: 70px;
+    width: 388px;
+    color: #AAAAAA;
+}
+
+.right_container p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    padding-bottom: 20px;
+}
