@@ -36,6 +36,7 @@
 }
 
 .scrolling_container {
+	cursor: pointer;
 	padding-top: 50px;
 }
 .scrolling_container h1 {
