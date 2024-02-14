@@ -1,0 +1,35 @@
+.updates_container_info {
+	padding: 0 150px;
+}
+
+.updates_container_info_wrapper {
+	padding: 0 50px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.updates_container_info_wrapper h6 {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 17.64px;
+}
+
+.updates_container_info_wrapper p {
+	color: #555555;
+}
+
+.updates_typography {
+	display: flex;
+}
+
+.updates_typography_wrapper {
+	width: 750px;
+}
+
+.updates_typography_wrapper h6 {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 17.64px;
+	font-weight: 400;
+}

@@ -1,0 +1,33 @@
+.updates_container {
+	position: absolute;
+	top: 560vh;
+	width: 100%;
+	height: 100vh;
+	padding: 150px 0;
+}
+
+.updates_wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0 150px;
+}
+
+.updates_wrapper h6 {
+	color: #888888;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.updates_typography_container {
+}
+
+.updates_typography_container p {
+	font-size: 16px;
+	color: #aaaaaa;
+	width: 470px;
+	line-height: 23.04px;
+	margin-bottom: 50px;
+}

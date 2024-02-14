@@ -1,0 +1,108 @@
+.testimonials_container {
+	position: relative;
+	top: 500vh;
+	width: 100%;
+	height: 100vh;
+}
+.testimonials_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 150px 0 150px;
+}
+
+.subtitle {
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-size: 14px;
+	color: #888888;
+}
+
+.forward_button {
+	cursor: pointer;
+}
+
+.backward_button {
+	cursor: pointer;
+}
+
+.backward_button:hover svg circle {
+	fill: #454545 !important;
+}
+
+.backward_button:hover svg path {
+	stroke: #9c7339 !important;
+}
+
+.buttons_container {
+	display: flex;
+	gap: 10px;
+}
+
+.typography_container {
+	position: relative;
+}
+
+.goldenLine {
+	top: 30px;
+	position: absolute;
+	left: 150px;
+}
+
+.typography_wrapper {
+	position: absolute;
+	width: 400px;
+	top: 30px;
+	left: 170px;
+}
+
+.typography_wrapper p {
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-style: italic;
+	line-height: 32px;
+}
+
+.vectorBottomContainer {
+	top: 160px;
+	position: absolute;
+	left: 150px;
+}
+
+.sideCurveVectorContainer {
+	top: 110px;
+	position: absolute;
+	left: 105px;
+}
+
+.customer_profile_container {
+	top: 220px;
+	position: absolute;
+	left: 160px;
+}
+
+.customer_profile_wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.typography {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.typography h5 {
+	font-size: 19.48px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 31.17px;
+}
+
+.typography body {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #9c7339;
+}
