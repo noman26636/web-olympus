@@ -6,6 +6,9 @@ import './index.css'
 import OurWork from '../../components/features/OurWork'
 import Testimonials from '../../components/features/Testimonials'
 import LatestUpdates from '../../components/features/LatestUpdates'
+import NewsLetter from '../../components/features/NewsLetter'
+import ContactUs from '../../components/features/ContactUs'
+import Footer from '../../components/features/Footer'
 
 function LandingPage() {
 	return (
@@ -17,6 +20,9 @@ function LandingPage() {
 				<OurWork />
 				<Testimonials />
 				<LatestUpdates />
+				<NewsLetter />
+				<ContactUs />
+				<Footer />
 			</div>
 		</>
 	)

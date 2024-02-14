@@ -1,15 +1,20 @@
 .updates_container_info {
-	padding: 0 150px;
+	padding: 30px 150px;
 }
 
 .updates_container_info_wrapper {
-	padding: 0 50px;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.updates_container_info:not(:last-child) .updates_container_info_wrapper {
+	border-bottom: 1px solid #464646;
 }
 
 .updates_container_info_wrapper h6 {
+	margin: auto 0;
 	color: #ffffff;
 	font-size: 18px;
 	line-height: 17.64px;
@@ -21,10 +26,26 @@
 
 .updates_typography {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrowIcon_container {
+	cursor: pointer;
+	margin: auto 0;
 }
 
 .updates_typography_wrapper {
 	width: 750px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.updates_typography_wrapper h5 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
 }
 
 .updates_typography_wrapper h6 {
